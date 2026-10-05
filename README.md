@@ -55,3 +55,41 @@ Field wajib: `nama` (string), `kota` (string), `jumlahSlot` (number), dan `dayaK
 
 ## Catatan
 Data disimpan di memori. Perubahan data tidak persisten dan bisa kembali ke data awal ketika proses/serverless instance dimulai ulang.
+
+## Identitas Mahasiswa
+
+- Nama: Naufal Samih Najasyi
+- NIM: 2428240116
+- Kelas: SI5B
+- Nomor Topik: 32
+- Topik: Stasiun Pengisian Kendaraan Listrik
+
+## Deployment
+
+URL Vercel:
+https://tugas1-restful-2428240116.vercel.app
+
+## Menjalankan Aplikasi Secara Lokal
+
+1. Pastikan Node.js sudah terpasang.
+2. Install dependency:
+
+   npm install
+
+3. Jalankan aplikasi dalam mode development:
+
+   npm run dev
+
+4. Buka http://localhost:3000
+
+## Daftar Endpoint
+
+| Method | Endpoint | Fungsi |
+|---|---|---|
+| GET | / | Informasi API |
+| GET | /charging-stations | Mengambil seluruh data |
+| GET | /charging-stations/:id | Mengambil data berdasarkan ID |
+| POST | /charging-stations | Menambahkan data |
+| PUT | /charging-stations/:id | Memperbarui seluruh data |
+| DELETE | /charging-stations/:id | Menghapus data |
+| GET | /charging-stations?kota=Palembang | Filter berdasarkan kota |
